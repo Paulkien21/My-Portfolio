@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulkien | Portfolio</title>
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">Paul kien Magdadaro</a>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact" class="btn-primary-sm">Contact Me</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="badge">Information Technology Student</span>
+                <h1>Hi, I'm <span class="highlight">Paulkien</span></h1>
+                <p class="hero-subtitle">
+                    Passionate about Software Project Management, Python/Django Backend Development, and C# Desktop Solutions.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-code"></i> View Projects</a>
+                    <a href="#contact" class="btn btn-secondary"><i class="fa-solid fa-paper-plane"></i> Get in Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://spotify.com" target="_blank" aria-label="Spotify"><i class="fa-brands fa-spotify"></i></a>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="card-header">
+                    <div class="dot red"></div>
+                    <div class="dot yellow"></div>
+                    <div class="dot green"></div>
+                    <span class="card-title">developer_profile.py</span>
+                </div>
+                <div class="card-body">
+<pre><code><span class="code-keyword">class</span> <span class="code-class">Developer</span>:
+    <span class="code-keyword">def</span> <span class="code-func">__init__</span>(self):
+        self.name = <span class="code-str">"Paulkien"</span>
+        self.education = <span class="code-str">"Cebu Eastern College"</span>
+        self.location = <span class="code-str">"Cebu City, Philippines"</span>
+        self.focus = [<span class="code-str">"Django"</span>, <span class="code-str">"C#"</span>, <span class="code-str">"Agile PM"</span>]
+
+    <span class="code-keyword">def</span> <span class="code-func">get_status</span>(self):
+        <span class="code-keyword">return</span> <span class="code-str">"Building innovative software soluciones..."</span></code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-lead">
+                I am an Information Technology student at Cebu Eastern College, Inc., focused on system architecture, software quality assurance, and community-centric tech solutions.
+            </p>
+            <div class="about-grid">
+                <div class="about-box">
+                    <i class="fa-solid fa-graduation-cap box-icon"></i>
+                    <h3>Education</h3>
+                    <p>BS in Information Technology at Cebu Eastern College, Inc.</p>
+                </div>
+                <div class="about-box">
+                    <i class="fa-solid fa-diagram-project box-icon"></i>
+                    <h3>Methodologies</h3>
+                    <p>Agile Development, Quality Assurance, UAT, and Change Control Board processes.</p>
+                </div>
+                <div class="about-box">
+                    <i class="fa-solid fa-microchip box-icon"></i>
+                    <h3>Systems & Hardware</h3>
+                    <p>PC Configuration, UEFI/BIOS firmware, command-line system diagnostics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-server"></i> Backend & Web</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Django</span>
+                        <span class="tag">Django REST Framework</span>
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-laptop-code"></i> Software Development</h3>
+                    <div class="tags">
+                        <span class="tag">C#</span>
+                        <span class="tag">Windows Forms</span>
+                        <span class="tag">Visual Studio</span>
+                        <span class="tag">SQL Databases</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-list-check"></i> Project Management</h3>
+                    <div class="tags">
+                        <span class="tag">Agile / Scrum</span>
+                        <span class="tag">Jira</span>
+                        <span class="tag">Trello</span>
+                        <span class="tag">Software QA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-badge">Capstone Project</div>
+                    <div class="project-content">
+                        <h3>Project ANDAM-Cebu</h3>
+                        <p>An AI-powered disaster preparedness and flood emergency response network designed for Barangay Bacayan in Cebu City. Features real-time routing, offline/online sync, Emergency SOS module, and a Web Command Center.</p>
+                        <div class="project-tags">
+                            <span>AI Integration</span>
+                            <span>Web App</span>
+                            <span>Emergency Systems</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-badge">IoT & AI Proposal</div>
+                    <div class="project-content">
+                        <h3>PedestrianSafe</h3>
+                        <p>An AI and IoT-based smart crosswalk system designed with automated pedestrian detection algorithms and intelligent safety lighting controls for municipal road safety.</p>
+                        <div class="project-tags">
+                            <span>IoT</span>
+                            <span>Smart Lighting</span>
+                            <span>Computer Vision</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-badge">E-Commerce System</div>
+                    <div class="project-content">
+                        <h3>SmartSave Laptops</h3>
+                        <p>An e-commerce platform dedicated to discounted and refurbished laptops. Features full relational database schema, user manual documentation, and administrator workflow management.</p>
+                        <div class="project-tags">
+                            <span>C# / Windows Forms</span>
+                            <span>Database Design</span>
+                            <span>Web Portal</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-lead">Feel free to reach out for research collaboration, projects, or inquiries.</p>
+            <div class="contact-wrapper">
+                <form class="contact-form" action="#" method="post" onclick="event.preventDefault();">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="your.email@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Paulkien. All rights reserved. | Based in Cebu City, Philippines</p>
+        </div>
+    </footer>
+
+</body>
+</html>
